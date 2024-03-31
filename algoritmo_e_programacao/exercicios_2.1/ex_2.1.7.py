@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Mar 24 21:10:40 2024
+Created on Sun Mar 31 16:58:11 2024
 
-@author: luizdevjr
+@author: luizd
 """
 
 import math as m
