@@ -8,12 +8,11 @@ Created on Mon Apr  1 20:11:39 2024
 
 n = int(input('entre com o valor de n= '))
 
-fatorial = 0
+fat = 1
 
-for i in range(n):
-    print(i)
-    fatorial = i*(i+1)
+for i in range(1, n+1):
+    fat = fat*i
     
-print(fatorial)
+print(fat)
 
 #corrigir
