@@ -14,23 +14,9 @@ theta = float(input("Entre com o valor do angulo theta: "))
 
 thetaRad = graupRad(theta)
 
-if theta == 90:
-    print(f"Sen(theta) = {m.sin(thetaRad)}")
-    print("Cos(theta) = 0")
-    
-elif theta == 180:
-    print("Sen(theta) = 0")
-    print(f"Cos(theta) = {m.cos(thetaRad)}")
-    
-elif theta == 270:
-    print("Sen(theta) = {m.sin(thetaRad)}")
-    print(f"Cos(theta) = {m.cos(thetaRad)}")    
-    
-    
-    
-    
 
-"""
+
 print(f"Sen(theta) = {m.sin(thetaRad)}")
 print(f"Cos(theta) = {m.cos(thetaRad)}")
-"""
+
+print("\n Para valores múltiplos de (pi ou 90°), os valores de sen ou cos que deveriam ser igual a 0, estarão errados!")
