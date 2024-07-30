@@ -17,4 +17,14 @@ def imparAleat():
         else:
             return x
 
-print(imparAleat())
+lista = []
+
+
+n = int(input("Entre com um valor de n>= 1: "))
+while not(n>=1):
+    n = int(input("Entre com um valor de n>= 1: "))
+
+for i in range(n):
+    lista.append(imparAleat())
+    
+print(lista)
