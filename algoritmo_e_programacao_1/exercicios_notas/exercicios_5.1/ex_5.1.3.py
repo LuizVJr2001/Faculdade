@@ -8,7 +8,7 @@ Created on Sun Jul 28 12:34:25 2024
 
 import numpy as np
 
-v = np.array([5, 6 ,1 , 4, 4, 8 ,9 ,10, 15, 16, 12])
+v = np.array([5, 6, 1, 4, 4, 8, 9, 10, 15, 16, 12])
 
 print(f"Array original = {v}")
 

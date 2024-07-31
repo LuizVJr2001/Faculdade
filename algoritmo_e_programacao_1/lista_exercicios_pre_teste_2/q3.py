@@ -17,19 +17,19 @@ def indMenor(arr):
     ind = []
     valor = n+m
     
-    for i in range(len(arr)-1): # termo do array principal
+    for linha in range(len(arr)): # termo do array principal     1   2
         
-        for j in range(arr[i].size): # termo do array interno
-            if arr[i][j] < valor:
-                    valor = arr[i][j]
-                    ind = [i, j]
+        for coluna in range(arr[linha].size): # termo do array interno
+            if arr[linha][coluna] < valor:
+                    valor = arr[linha][coluna]
+                    ind = [linha, coluna]
     return ind[0]*m + ind[1]
 
 def valMenor(arr):
     ind = []
     valor = n+m
     
-    for i in range(len(arr)-1): # termo do array principal
+    for i in range(len(arr)): # termo do array principal
         
         for j in range(arr[i].size): # termo do array interno
             if arr[i][j] < valor:
