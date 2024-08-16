@@ -51,14 +51,16 @@ print(listaOrdenada)
         
 
 
-fl = open('lista.txt','a')
+fl = open('lista_dados_Q1.txt','a')
+
+fl.write('\n Nova entrada de dados\n \n')
 
 for i in range(len(listaOrdenada)):
     fl.write(f'{listaOrdenada[i]} \n')
     
 fl.close()
         
-        
+print("Os dados foram adicionados no arquivo 'lista_dados_Q1.txt'")
         
         
         
