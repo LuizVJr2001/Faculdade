@@ -4,6 +4,30 @@ Created on Sun Aug 18 19:18:24 2024
 
 @author: luizd
 """
+"""
+O passo a passo se consiste em:
+    
+1) importar a biblioteca com
+        import matplotlib.pyplot as plt
+
+2) iniciar uma figura com
+        fig = plt.figure()
+
+3) criar uma axis com
+        ax = fig.add_subplot()
+
+4) plotar as funções ou pontos usando
+        pra lidar com uma função precisa de um passo a mais
+            4.1) criar uma lista com varias coordenadas de x com pouco espaço entre elas com
+                    x = np.linspace(inicio,fim)
+            e usar esse espaço linear como parametro para o plot da curva/reta com
+                ax.plot(x, função de x)
+            
+    
+
+"""
+
+
 
 """
 import matplotlib.pyplot as plt
